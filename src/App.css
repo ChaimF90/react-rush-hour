@@ -1,0 +1,44 @@
+.board {
+  width: 600px;
+  height: 600px;
+  border: 6px solid;
+  border-color: black;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.square {
+  background: gray;
+  height: 96px;
+  width: 96px;
+  float: left;
+  border: 2px solid lightgray;
+  cursor: crosshair;
+}
+
+.filled-square {
+  height: 96px;
+  width: 96px;
+  float: left;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.square-with-car {
+  height: 96px;
+  width: 96px;
+  float: left;
+  border: 2px solid;
+}
+
+.finishBox {
+  color: white;
+  text-align: center;
+}
+
+.selected-car {
+  margin-top: 10px;
+  margin-left: 500x;
+  display: inline-block;
+}
+
